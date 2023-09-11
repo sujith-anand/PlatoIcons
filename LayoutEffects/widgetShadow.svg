@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="284" height="164" viewBox="0 0 284 164">
+  <defs>
+    <filter id="widgetShadow" x="0" y="0" width="284" height="164" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#8fa7bf" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#widgetShadow)">
+    <rect id="widgetShadow-2" data-name="widgetShadow" width="266" height="146" rx="8" transform="translate(9 7)" fill="#fff"/>
+  </g>
+</svg>
